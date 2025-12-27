@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Web Page</title>
+</head>
+<body>
+
+    <h1>Welcome to My Web Page</h1>
+    <h2>About Me</h2>
+
+    <p>
+        Hello! My name is <b>Priya</b>. I am learning <i>Web Development</i> as part of my syllabus.
+        This is my <u>first HTML page</u>.
+    </p>
+
+    <h3>Why I Like Web Development</h3>
+
+    <p>
+        Web development is <strong>interesting</strong> and <em>creative</em>.
+        It helps me build websites and understand how the internet works.
+    </p>
+
+    <h4>Text Formatting Examples</h4>
+
+    <p>
+        <b>Bold Text</b><br>
+        <i>Italic Text</i><br>
+        <u>Underlined Text</u><br>
+        <mark>Highlighted Text</mark><br>
+        <small>Small Text</small><br>
+        H<sub>2</sub>O and 10<sup>2</sup>
+    </p>
+
+    <h5>Thank You!</h5>
+    <p>This is a simple HTML page created using basic tags.</p>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration Form</title>
+</head>
+<body style="background-color: #f0fff0; font-family: Arial;">
+
+  <h1 align="center">Student Registration Form</h1>
+  <form action="#" method="post" style="width: 60%; margin: auto; border: 2px solid green; padding: 20px; background-color: #ffffff;">
+    <label><b>Full Name:</b></label>
+    <input type="text" name="name" placeholder="Enter your name" size="40"><br><br>
+
+    <label><b>Email:</b></label>
+    <input type="email" name="email" placeholder="example@gmail.com"><br><br>
+
+    <label><b>Gender:</b></label>
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female<br><br>
+
+    <label><b>Hobbies:</b></label>
+    <input type="checkbox" name="h1">Reading
+    <input type="checkbox" name="h2">Music
+    <input type="checkbox" name="h3">Traveling<br><br>
+
+    <label><b>Course:</b></label>
+    <select name="course">
+      <option>B.Tech CSE</option>
+      <option>B.Sc CS</option>
+      <option>BCA</option>
+    </select><br><br>
+
+    <textarea rows="4" cols="50" placeholder="Write something about yourself..."></textarea><br><br>
+
+    <input type="submit" value="Submit Form">
+    <input type="reset" value="Clear Form">
+  </form>
+
+</body>
+</html>

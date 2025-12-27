@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table Layout Example</title>
+</head>
+<body style="font-family: sans-serif; background-color: #f9f9f9;">
+
+  <h1 align="center">Student Result Record</h1>
+  <table border="2" cellspacing="0" cellpadding="10" align="center" bgcolor="#e6f7ff">
+    <caption><b>Semester 1 Marks</b></caption>
+    <tr bgcolor="#b3e6ff">
+      <th rowspan="2">Student Name</th>
+      <th colspan="3">Subjects</th>
+      <th rowspan="2">Average</th>
+    </tr>
+    <tr bgcolor="#b3e6ff">
+      <th>HTML</th>
+      <th>CSS</th>
+      <th>C Language</th>
+    </tr>
+    <tr align="center">
+      <td>Priya</td>
+      <td>95</td>
+      <td>88</td>
+      <td>92</td>
+      <td>91.6</td>
+    </tr>
+    <tr align="center">
+      <td> peehu</td>
+      <td>85</td>
+      <td>90</td>
+      <td>80</td>
+      <td>85.0</td>
+    </tr>
+  </table>
+
+</body>
+</html>

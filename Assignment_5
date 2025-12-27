@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Semantic Web Page</title>
+  <style>
+    header, footer { background-color: #cce7ff; text-align: center; padding: 10px; }
+    nav { background-color: #333; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 10px; text-decoration: none; }
+    section { display: flex; margin: 20px; }
+    article { flex: 3; background-color: #f9f9f9; padding: 15px; }
+    aside { flex: 1; background-color: #e6f2ff; padding: 15px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tech Blog</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Articles</a>
+    <a href="#">About</a>
+  </nav>
+
+  <section>
+    <article>
+      <h2>Understanding HTML</h2>
+      <p>HTML is the standard markup language for creating web pages. It defines the structure and layout of a page.</p>
+    </article>
+    <aside>
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">HTML Tutorial</a></li>
+        <li><a href="#">CSS Tutorial</a></li>
+      </ul>
+    </aside>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tech Blog. All rights reserved.</p>
+  </footer>
+</body>
+</html>

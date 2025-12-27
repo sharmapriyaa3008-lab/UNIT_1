@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Links, Images and Lists</title>
+</head>
+<body style="background-color: #fffaf0; font-family: Verdana;">
+
+  <h1 align="center">My Favorite Things</h1>
+  <hr>
+
+  <h2>Useful Websites</h2>
+  <ul>
+    <li><a href="https://www.google.com" target="_blank">Google</a></li>
+    <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+    <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+  </ul>
+
+  <h2>My Favorite Image</h2>
+  <img src="https://via.placeholder.com/250x150" alt="Sample Picture" border="2">
+
+  <h2>My Study Plan</h2>
+  <ol type="I">
+    <li>Morning Routine
+      <ul>
+        <li>Exercise</li>
+        <li>Breakfast</li>
+      </ul>
+    </li>
+    <li>Study HTML & CSS</li>
+    <li>Practice Coding Daily</li>
+  </ol>
+
+</body>
+</html>
